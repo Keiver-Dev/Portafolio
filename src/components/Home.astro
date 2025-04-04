@@ -1,0 +1,39 @@
+---
+import Header from "../components/SubComponent/Header.astro";
+import HomePs from "../components/SubComponent/HomePs.astro";
+import About from "./SubComponent/About.astro";
+import Proyects from "./SubComponent/Proyects.astro";
+---
+
+<main class="flex flex-col h-[400vh] scroll-smooth"> 
+    <section class="opacity-0 invisible translate-y-8 transition-all duration-1000">
+        <Header />
+    </section>
+    <section class="h-[90vh] opacity-0 invisible translate-y-8 transition-all duration-1000">
+        <HomePs />
+    </section>
+    <section class="opacity-0 invisible translate-y-8 transition-all duration-1000">
+        <About />
+    </section>
+    <section class="opacity-0 invisible translate-y-8 transition-all duration-1000">
+        <Proyects />
+    </section>
+</main>
+
+<script>
+
+    // -- Funcion De MagicScroll --
+    function revealOnScroll() {
+        const elements = document.querySelectorAll('section');
+        elements.forEach(element => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100) {
+                element.classList.add('opacity-100', 'translate-y-0', 'visible');
+                element.classList.remove('opacity-0', 'translate-y-8', 'invisible');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll();
+</script>

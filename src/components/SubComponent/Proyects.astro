@@ -1,0 +1,54 @@
+---
+import CssIcon from "./Icons/CssIcon.astro"
+import GithubIcon from "./Icons/GithubIcon.astro"
+import HtmlIcon from "./Icons/HtmlIcon.astro"
+import JavascriptIcon from "./Icons/JavascriptIcon.astro"
+import ReactIcon from "./Icons/ReactIcon.astro"
+import ShareIcon from "./Icons/ShareIcon.astro"
+import TailwindIcon from "./Icons/TailwindIcon.astro"
+---
+
+<section class="flex h-[100vh]">
+    <section class="flex-[20%]">
+
+    </section>
+    <section class="flex flex-col flex-[55%] pl-28 pt-32">
+        <article class="flex flex-col gap-6">
+            <div class="flex flex-col gap-1"> 
+                <p class="text-normal text-[#DAFDBA]">Featured Project</p>
+                <h1 class="font-bold text-2xl">PixelArt Gallery</h1>
+            </div>
+            <div class="flex bg-zinc-800 p-8 shadow-md ">
+                <p class="text-zinc-400">PIxel Gallery, a project made with <span class="text-[#DAFDBA]">React 19</span> and <span class="text-[#DAFDBA]">Tailwind</span>, is a pixel art gallery with the ability to view the image and download it whenever you want.</p>
+            </div>
+            <div class="flex gap-2 ">
+                <div class="flex flex-[5%] flex-col justify-center text-center p-4 gap-2 border border-zinc-600 rounded-bl-lg">
+                    <a href="#"><GithubIcon /></a>
+                    <p>•</p>
+                    <a href="#"><ShareIcon /></a>
+                </div>
+                <div class="flex flex-[90%] justify-center ">
+                    <img class="border border-zinc-600 grayscale hover:grayscale-0 transition duration-300" src="/src/assets/PixelArt.png">
+                </div>
+                <div class="flex flex-[5%] flex-col justify-center text-center p-4 gap-2 border border-zinc-600 rounded-br-lg">
+                    <a href="#"><HtmlIcon /></a>
+                    <p>•</p>
+                    <a href="#"><CssIcon /></a>
+                    <p>•</p>
+                    <a href="#"><JavascriptIcon /></a>
+                    <p>•</p>
+                    <a href="#"><ReactIcon /></a>
+                    <p>•</p>
+                    <a href="#"><TailwindIcon /></a>
+                </div>
+            </div>
+            <div></div>
+        </article>
+        <article class="flex flex-col">
+
+        </article>
+    </section>
+    <section class="flex-[25%]">
+
+    </section>
+</section>
