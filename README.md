@@ -20,8 +20,9 @@ Make sure you have installed:
 
 ---
 
-## Structure
+## 📁 Project StructureStructure
 
+```text
 /
 ├── public/           # Static assets
 ├── src/       
@@ -31,12 +32,27 @@ Make sure you have installed:
 │   └── styles/       # Custom styles
 ├── astro.config.mjs  # Astro configuration
 ├── package.json
+```
 
 ---
 
 ## 🛠️ How to Start the Project
 
-1. **Clone the repository**
+1. **🧞 Commands**
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+
+2. **Clone the repository**
 
 ```bash
 git clone https://github.com/Keiver-Dev/Portafolio.git
