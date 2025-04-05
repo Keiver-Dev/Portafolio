@@ -20,12 +20,24 @@ Make sure you have installed:
 
 ---
 
+## Structure
+
+/
+├── public/           # Static assets
+├── src/       
+│   ├── components/   # Reusable UI components
+│   ├── layouts/      # Layouts
+│   ├── pages/        # Page routes (auto-routed)
+│   └── styles/       # Custom styles
+├── astro.config.mjs  # Astro configuration
+├── package.json
+
+---
+
 ## 🛠️ How to Start the Project
 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-npm run dev
-npm run built
+git clone https://github.com/Keiver-Dev/Portafolio.git
+cd Portafolio
