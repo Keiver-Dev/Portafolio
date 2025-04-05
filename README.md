@@ -43,6 +43,7 @@ Make sure you have installed:
 ```bash
 git clone https://github.com/Keiver-Dev/Portafolio.git
 cd Portafolio
+npm run dev
 ```
 
 2. **🧞 Commands**
