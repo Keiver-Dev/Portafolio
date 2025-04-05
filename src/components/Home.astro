@@ -2,10 +2,11 @@
 import Header from "../components/SubComponent/Header.astro";
 import HomePs from "../components/SubComponent/HomePs.astro";
 import About from "./SubComponent/About.astro";
+import Footer from "./SubComponent/Footer.astro";
 import Proyects from "./SubComponent/Proyects.astro";
 ---
 
-<main class="flex flex-col h-[400vh] scroll-smooth"> 
+<main class="flex flex-col h-[325vh] scroll-smooth"> 
     <section class="opacity-0 invisible translate-y-8 transition-all duration-1000">
         <Header />
     </section>
@@ -17,6 +18,9 @@ import Proyects from "./SubComponent/Proyects.astro";
     </section>
     <section class="opacity-0 invisible translate-y-8 transition-all duration-1000">
         <Proyects />
+    </section>
+    <section>
+        <Footer />
     </section>
 </main>
 
