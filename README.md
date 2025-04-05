@@ -20,7 +20,7 @@ Make sure you have installed:
 
 ---
 
-## 📁 Project StructureStructure
+## 📁 Project Structure
 
 ```text
 /
