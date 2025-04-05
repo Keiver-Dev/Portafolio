@@ -1,29 +1,31 @@
-# 🌟 Mi Proyecto Astro
+# 🌟 My Astro Project
 
-Este es un sitio web desarrollado con **[Astro](https://astro.build/)**, un moderno framework para construir sitios rápidos y optimizados.
+This is my web portfolio built with **[Astro](https://astro.build/)** and **[Tailwind](https://tailwindcss.com/)** — a modern framework for building fast and optimized websites.
 
-## 🚀 Tecnologías usadas
+## 🚀 Technologies Used
 
 - [Astro](https://astro.build/)
 - HTML / CSS / JavaScript
-- (Opcional: React, Vue, Svelte, etc. si los integras)
-- Markdown / MDX (si se usan)
+- (Optional: React is already installed. You can also integrate Vue, Svelte, etc.)
+- Markdown / MDX (if used)
 
 ---
 
-## 📦 Requisitos
+## 📦 Requirements
 
-Asegúrate de tener instalado:
+Make sure you have installed:
 
-- [Node.js](https://nodejs.org/) v18 o superior
-- [npm](https://www.npmjs.com/) o [pnpm](https://pnpm.io/)
+- [Node.js](https://nodejs.org/) v18 or higher
+- [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
 
 ---
 
-## 🛠️ Cómo iniciar el proyecto
+## 🛠️ How to Start the Project
 
-1. **Clona el repositorio**
+1. **Clone the repository**
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+npm run dev
+npm run built
