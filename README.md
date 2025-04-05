@@ -31,7 +31,7 @@ Make sure you have installed:
 │   ├── pages/        # Page routes (auto-routed)
 │   └── styles/       # Custom styles
 ├── astro.config.mjs  # Astro configuration
-├── package.json
+├── package.json.
 ```
 
 ---
