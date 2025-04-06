@@ -2,6 +2,8 @@
 
 This is my web portfolio built with **[Astro](https://astro.build/)** and **[Tailwind](https://tailwindcss.com/)** — a modern framework for building fast and optimized websites.
 
+**[Web Site](./public/Portafolio.png)**
+
 ## 🚀 Technologies Used
 
 - [Astro](https://astro.build/)
