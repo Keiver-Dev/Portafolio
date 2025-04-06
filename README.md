@@ -15,7 +15,7 @@ This is my web portfolio built with **[Astro](https://astro.build/)** and **[Tai
 
 ## 📦 Requirements
 
-Make sure you have installed:
+Make sure you have installed
 
 - [Node.js](https://nodejs.org/) v18 or higher
 - [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
