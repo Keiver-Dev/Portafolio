@@ -3,7 +3,7 @@ import tailwind from '@astrojs/tailwind';
 import react from '@astrojs/react';
 
 export default defineConfig({
-  site: 'https://Keiver-Dev.github.io',
-  base: '/',
+  site: 'https://keiver-dev.github.io',
+  base: '/Portafolio/',
   integrations: [react(), tailwind()],
 });
