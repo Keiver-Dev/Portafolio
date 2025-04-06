@@ -17,5 +17,8 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.0.17"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
