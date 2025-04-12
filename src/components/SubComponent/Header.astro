@@ -3,23 +3,50 @@ import Logo from "./Icons/Logo.astro";
 ---
 
 <div class="text-[#D8FFDB]">
-    <header id="navbar" class="left-0 w-full flex justify-between items-center text-center shadow-lg transition-transform duration-300">
-        <!-- Logo -->
-        <div class="p-8">
-            <Logo />
-        </div>
+  <header
+    id="navbar"
+    class="left-0 w-full flex justify-between items-center text-center shadow-lg transition-transform duration-300"
+  >
+    <!-- Logo -->
+    <div class="p-6">
+      <Logo />
+    </div>
 
-        <!-- Navegación -->
-        <nav class="flex items-center gap-10 font-normal p-4">
-            <a href="#" class="hover:text-gray-400 transition duration-300">01.About</a>
-            <a href="#" class="hover:text-gray-400 transition duration-300">02.Work</a>
-            <a href="#" class="hover:text-gray-400 transition duration-300">03.Contact</a>
+    <!-- Botón hamburguesa (solo en móviles) -->
+    <button id="menu-toggle" class="sm:hidden p-6 text-2xl focus:outline-none">
+      ☰
+    </button>
 
-            <!-- Botón de resumen -->
-            <a href="#" class="px-4 py-2 text-[#D8FFDB] border transition duration-300 hover:bg-[#9AEBA3] hover:text-black cursor-pointer">
-                Resumen
-            </a>
-        </nav>
-    </header>
+    <!-- Navegación para pantallas sm en adelante -->
+    <nav
+      id="menu-desktop"
+      class="hidden sm:flex items-center gap-10 font-normal p-4"
+    >
+      <a href="#" class="hover:text-gray-400 transition duration-300">01.About</a>
+      <a href="#" class="hover:text-gray-400 transition duration-300">02.Work</a>
+      <a href="#" class="hover:text-gray-400 transition duration-300">03.Contact</a>
+      <a
+        href="#"
+        class="px-4 py-2 text-[#D8FFDB] border transition duration-300 hover:bg-[#9AEBA3] hover:text-black cursor-pointer"
+      >
+        Resumen
+      </a>
+    </nav>
+  </header>
+
+  <!-- Menú móvil desplegable -->
+  <nav
+    id="menu-mobile"
+    class="sm:hidden hidden flex-col gap-4 px-6 py-4 font-normal"
+  >
+    <a href="#" class="hover:text-gray-400 transition duration-300">01.About</a>
+    <a href="#" class="hover:text-gray-400 transition duration-300">02.Work</a>
+    <a href="#" class="hover:text-gray-400 transition duration-300">03.Contact</a>
+    <a
+      href="#"
+      class="px-4 py-2 text-[#D8FFDB] border transition duration-300 hover:bg-[#9AEBA3] hover:text-black cursor-pointer w-fit"
+    >
+      Resumen
+    </a>
+  </nav>
 </div>
-

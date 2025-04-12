@@ -2,29 +2,34 @@
 import CarrucelProyects from "./CarrucelProyects.astro";
 ---
 
-<section class="flex h-[100vh]">
-    <section class="flex-[20%]">
+<section class="flex h-[100vh]   xl:flex xl:h-[100vh]">
+  <section class="xl:flex-[20%]"></section>
 
-    </section>
-    <section class="flex flex-col flex-[55%] pl-28 pt-32">
-        <article class="flex flex-col gap-6">
-            <div class="flex flex-col gap-1"> 
-                <p class="text-normal text-[#DAFDBA]">Main Projects</p>
-                <h1 class="font-bold text-2xl">PixelArt Gallery</h1>
-            </div>
-            <div class="flex bg-zinc-800 p-8 shadow-md ">
-                <p class="text-zinc-400">PIxel Gallery, a project made with <span class="text-[#DAFDBA]">React 19</span> and <span class="text-[#DAFDBA]">Tailwind</span>, is a pixel art gallery with the ability to view the image and download it whenever you want.</p>
-            </div>
-                <section>
-                    <CarrucelProyects />
-                </section>
-            <div></div>
-        </article>
-        <article class="flex flex-col">
+  <section class="flex flex-col p-4 pt-24  xl:flex xl:flex-col xl:flex-[55%] xl:pl-28 xl:pt-32">
+    <article class="flex flex-col gap-6">
+      <div class="flex flex-col gap-1"> 
+        <p class="text-normal text-[#DAFDBA]">Main Projects</p>
+        <h1 class="font-bold text-2xl xl:text-2xl">PixelArt Gallery</h1>
+      </div>
 
-        </article>
-    </section>
-    <section class="flex-[25%]">
+      <div class="flex xl:bg-zinc-800 xl:p-8 xl:shadow-md">
+        <p class="text-zinc-400">
+          Pixel Gallery, a project made with <span class="text-[#DAFDBA]">React 19</span> and 
+          <span class="text-[#DAFDBA]"> Tailwind</span>, is a pixel art gallery with the ability 
+          to view the image and download it whenever you want.
+        </p>
+      </div>
 
-    </section>
+      <section class="mt-20 xl:mt-0">
+        <CarrucelProyects />
+      </section>
+
+      <div></div>
+    </article>
+
+    <article class="xl:flex xl:flex-col">
+    </article>
+  </section>
+
+  <section class="xl:flex-[25%]"></section>
 </section>

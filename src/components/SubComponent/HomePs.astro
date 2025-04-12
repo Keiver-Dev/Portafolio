@@ -4,30 +4,44 @@ import InstagramIcons from "../SubComponent/Icons/InstagramIcons.astro"
 import LinkedinIcon from "../SubComponent/Icons/LinkedinIcon.astro"
 ---
 
-<article class="flex gap-4 h-[70vh] ">
-    <section class="flex-[25%] flex flex-col items-end justify-center">
-        <div class="flex flex-col justy p-4 gap-8">
-            <GithubIcon />
-            <InstagramIcons />
-            <LinkedinIcon />
-        </div>
-    </section>
-    <section class="flex flex-[75%] w-[75%] flex-col justify-center gap-2 ">
-        <div class="">
-            <p class="text-[#C7FFED] text-base">Hello, my name is</p>
-        </div>
-        <div class="mt-7">
-            <h1 class="font-bold text-7xl">Keiver Luna</h1>
-        </div>
-        <div>
-            <h1 class="font-bold text-6xl text-zinc-400">Imagine First  Second Create.</h1>
-        </div>
-        <div class="mt-10 text-zinc-500 text-base">
-            <p> I am a front-end programmer and part of UX and UI, <br>
-                I create the structure of the website and its style.</p>
-        </div>
-        <div class="mt-6 w-32 h-10 border border-white flex justify-center items-center text-center transition duration-300 hover:bg-[#9AEBA3] hover:text-black cursor-pointer hover:shadow-md hover:shadow-white">
-            <a href="#">Let’s Go!</a>
-        </div>
-    </section>
+<article class="flex flex-col h-[90vh] xl:flex xl:flex-row xl:gap-4 xl:h-[70vh]">
+
+  <section class="hidden flex-[10%] p-4 xl:flex-[25%] xl:flex xl:flex-col xl:items-end xl:justify-center">
+    <div class="flex gap-2 xl:flex xl:flex-col xl:p-4 xl:gap-8">
+      <a href="https://github.com/Keiver-Dev"><GithubIcon /></a>
+      <a href="https://www.instagram.com/"><InstagramIcons /></a>
+      <a href="https://www.linkedin.com/in/keiver-santiago-luna-armenta-101716339/"><LinkedinIcon /></a>
+    </div>
+  </section>
+
+  <section class="flex-col flex-[90%] p-4 mt-32 gap-2 xl:flex xl:flex-[75%] xl:w-[75%] xl:flex-col xl:justify-center xl:gap-2">
+    <div>
+      <p class="text-[#C7FFED] text-base">Hello, my name is</p>
+    </div>
+
+    <div class="mt-5 xl:mt-7">
+      <h1 class="font-bold text-5xl xl:text-7xl">Keiver Luna</h1>
+    </div>
+
+    <div>
+      <h1 class="font-bold text-4xl xl:text-6xl text-zinc-400">Imagine First Second Create.</h1>
+    </div>
+
+    <div class="mt-10  xl:mt-10 text-zinc-500 text-base">
+      <p>
+        I am a front-end programmer and part of UI, <br />
+        I create the structure of the website and its style.
+      </p>
+    </div>
+
+    <div class="mt-6 h-10 xl:mt-6 xl:w-32 xl:h-10 border lg:border-white flex justify-center items-center text-center transition duration-300 hover:bg-[#9AEBA3] hover:text-black cursor-pointer hover:shadow-md hover:shadow-white">
+      <a href="#">Let’s Go!</a>
+    </div>
+    <div class="flex gap-2 mt-4 xl:hidden xl:flex-col xl:p-4 xl:gap-8">
+      <a href="https://github.com/Keiver-Dev"><GithubIcon /></a>
+      <a href="https://www.instagram.com/"><InstagramIcons /></a>
+      <a href="https://www.linkedin.com/in/keiver-santiago-luna-armenta-101716339/"><LinkedinIcon /></a>
+    </div>
+  </section>
+  
 </article>
