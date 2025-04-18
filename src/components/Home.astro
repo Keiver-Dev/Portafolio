@@ -1,9 +1,9 @@
 ---
 import Header from "../components/SubComponent/Header.astro";
-import HomePs from "../components/SubComponent/HomePs.astro";
+import Start from "../components/SubComponent/Start.astro";
 import About from "./SubComponent/About.astro";
 import Footer from "./SubComponent/Footer.astro";
-import Proyects from "./SubComponent/Proyects.astro";
+import Project from "./SubComponent/Project.astro";
 ---
 
 <main class="flex flex-col h-[15vh] scroll-smooth"> 
@@ -11,13 +11,13 @@ import Proyects from "./SubComponent/Proyects.astro";
         <Header />
     </section>
     <section class="h-[90vh] opacity-0 invisible translate-y-8 transition-all duration-1000">
-        <HomePs />
+        <Start />
     </section>
     <section class="opacity-0 invisible translate-y-8 transition-all duration-1000">
         <About />
     </section>
     <section class="opacity-0 invisible translate-y-8 transition-all duration-1000">
-        <Proyects />
+        <Project />
     </section>
     <section>
         <Footer />
@@ -26,7 +26,7 @@ import Proyects from "./SubComponent/Proyects.astro";
 
 <script>
 
-    // -- Funcion De MagicScroll --
+    // -- MagicScroll -- //
     function revealOnScroll() {
         const elements = document.querySelectorAll('section');
         elements.forEach(element => {
