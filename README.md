@@ -1,13 +1,63 @@
-# React + Vite
+# 🌟 My Astro Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my web portfolio built with **[Astro](https://astro.build/)** and **[Tailwind](https://tailwindcss.com/)** — a modern framework for building fast and optimized websites.
 
-Currently, two official plugins are available:
+**![Web Site](./public/Portafolio.png)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Technologies Used
 
-## Expanding the ESLint configuration
+- [Astro](https://astro.build/)
+- HTML / CSS / JavaScript
+- (Optional: React is already installed. You can also integrate Vue, Svelte, etc.)
+- Markdown / MDX (if used)..
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Portafolio
+---
+
+## 📦 Requirements
+
+Make sure you have installed
+
+- [Node.js](https://nodejs.org/) v18 or higher
+- [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
+
+---
+
+## 📁 Project Structure
+
+```text
+/
+├── public/           # Static assets
+├── src/       
+│   ├── components/   # Reusable UI components
+│   ├── layouts/      # Layouts
+│   ├── pages/        # Page routes (auto-routed)
+│   └── styles/       # Custom styles
+├── astro.config.mjs  # Astro configuration
+├── package.json
+```
+
+---
+
+## 🛠️ How to Start the Project
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Keiver-Dev/Portafolio.git
+cd Portafolio
+npm run dev
+```
+
+2. **🧞 Commands**
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
