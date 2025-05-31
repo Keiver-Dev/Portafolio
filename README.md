@@ -1,16 +1,14 @@
-# 🌟 My Astro Project
+# 🌟 My Portafolio
 
-This is my web portfolio built with **[Astro](https://astro.build/)** and **[Tailwind](https://tailwindcss.com/)** — a modern framework for building fast and optimized websites.
+This is my web portfolio built with **[React](https://vite.dev/)** and **[Tailwind](https://tailwindcss.com/)**
 
 **![Web Site](./public/Portafolio.png)**
 
 ## 🚀 Technologies Used
 
-- [Astro](https://astro.build/)
-- HTML / CSS / JavaScript
-- (Optional: React is already installed. You can also integrate Vue, Svelte, etc.)
+- [React for Vite](https://vite.dev/)
+- HTML / CSS - (Tailwind) / JavaScript / FrameMotion /
 - Markdown / MDX (if used)..
-
 ---
 
 ## 📦 Requirements
@@ -24,15 +22,15 @@ Make sure you have installed
 
 ## 📁 Project Structure
 
-```text
+```
 /
 ├── public/           # Static assets
 ├── src/       
-│   ├── components/   # Reusable UI components
-│   ├── layouts/      # Layouts
-│   ├── pages/        # Page routes (auto-routed)
-│   └── styles/       # Custom styles
-├── astro.config.mjs  # Astro configuration
+│   ├── assests/      # Assest
+│   ├── component/    # Structura Web
+├── App.jsx           # App configuration
+├── index.css         # Styles and Tailwind
+├── main.jsx          # Root the App
 ├── package.json
 ```
 
@@ -55,9 +53,7 @@ All commands are run from the root of the project, from a terminal:
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run dev`             | Starts local dev server at `localhost:`      |
 | `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm run preview`         | Preview your build locally,
 
