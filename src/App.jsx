@@ -1,5 +1,3 @@
-//Funciones
-
 //Components
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -9,12 +7,14 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="flex flex-col bg-zinc-900 h-auto w-full text-white">
-      <Header />
-      <Home />
-      <About />
-      <Projects />
-      <Footer />
+    <main className="h-auto w-full bg-zinc-900 text-white">
+      <section className="flex flex-col">
+        <Header />
+        <Home />
+        <About />
+        <Projects />
+        <Footer />
+      </section>
     </main>
   );
 }

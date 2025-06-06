@@ -65,7 +65,7 @@ const Navbar = () => {
         >
           {/* Logo */}
           <div className="text-white p-6">
-            <img className="h-7 w-7" src="Fire.svg" alt="Logo" />
+            <img className="h-7 w-7" src="Portafolio/Fire.svg" alt="Logo" />
           </div>
           <NavbarMovil />
           
