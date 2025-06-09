@@ -18,7 +18,7 @@ function Spotify() {
           {/* Project Image */}
           <div className="md:w-1/2 border-2 border-zinc-700 hover:border-zinc-500 rounded-md hover:-translate-x-1 transition-all duration-500">
             <img
-              src="/"
+              src="/Portafolio/Spotify.png"
               alt="Spotify"
               href="#"
               className="rounded-lg shadow-lg cursor-pointer"
