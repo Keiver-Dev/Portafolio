@@ -18,7 +18,7 @@ function Gallery() {
           {/* Project Image */}
           <a href="https://github.com/Keiver-Dev/Gallery" className="md:w-1/2 border-2 hover:translate-x-1 border-zinc-700 hover:border-zinc-500  rounded-md transition-all duration-500 bg-zinc-800/75">
             <img
-              src="Portafolio/Gallery.png"
+              src="/Portafolio/Gallery.png"
               alt="Gallery"
               className="rounded-lg shadow-lg cursor-pointer"
             />

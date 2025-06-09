@@ -17,7 +17,7 @@ function PixelGallery() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <a href="https://github.com/Keiver-Dev/PixelArt-Gallery" className="md:w-1/2 border-2 border-zinc-700 hover:border-zinc-500 rounded-md hover:translate-x-1 transition-all duration-500">
             <img
-              src="Portafolio/PixelArt.png"
+              src="/Portafolio/PixelArt.png"
               alt="Spotify"
               className="rounded-lg shadow-lg cursor-pointer"
             />
