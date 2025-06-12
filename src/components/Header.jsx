@@ -104,7 +104,7 @@ const Navbar = () => {
             </motion.button>
 
             <motion.a
-              href="#"
+              href="/Portafolio/Curriculo.pdf"
               className="px-4 py-2 text-[#D8FFDB] border transition duration-300 hover:bg-[#9AEBA3] hover:text-black cursor-pointer"
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}

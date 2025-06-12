@@ -66,7 +66,7 @@ function NavbarMovil() {
                 Projects
               </button>
               <button className="flex font-semibold hover:bg-[#9AEBA3] hover:text-black border hover:shadow hover:shadow-white transition-colors p-2 mt-6">
-                Resumen
+                <a href="/Portafolio/Curriculo.pdf">Resumen</a>
               </button>
             </section>
           </motion.div>
