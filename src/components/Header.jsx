@@ -115,7 +115,7 @@ const Navbar = () => {
                 bounce: 0.7,
               }}
             >
-              Resumen
+              Currículo
             </motion.a>
           </nav>
         </header>
