@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Gallery from "./Projects/Gallery";
 import PixelGallery from "./Projects/PixelGallery";
 import Spotify from "./Projects/Spotify";
+import DeckStudio from "./Projects/DeckStudio";
 
 function Projects() {
   return (
@@ -13,6 +14,7 @@ function Projects() {
       viewport={{ once: true }}
     >
       <section className="flex flex-col h-auto">
+        <DeckStudio />
         <Gallery />
         <Spotify />
         <PixelGallery />

@@ -8,7 +8,7 @@ function Gallery() {
         {/* Section Header */}
         <section className="mb-12">
           <h2 className="text-zinc-500 text-lg font-mono mb-2">
-            01. <span className="text-white xl:text-3xl font-bold"><span className="xl:text-2xl">Front-End</span></span>
+            02.
           </h2>
           <div className="h-[1px] bg-gray-700 mt-2 w-full" />
         </section>
@@ -33,8 +33,7 @@ function Gallery() {
             <div className="bg-zinc-800 p-4 rounded-md shadow text-sm mb-4 text-slate-300">
               <p>
                 Gallery is an SVG website with different categories and the
-                ability to copy. See the official SVG page. Made with 
-                <a className="text-[#45C4B0] underline" href="https://es.react.dev/" > React,</a> <a className="text-[#45C4B0] underline" href="https://tailwindcss.com/">Tailwind</a>, and <a className="text-[#45C4B0] underline" href="https://motion.dev/">Frame-Motion</a>.
+                ability to copy. See the official SVG page. Made with <a className="text-[#45C4B0] underline" href="https://es.react.dev/" >React,</a> <a className="text-[#45C4B0] underline" href="https://tailwindcss.com/">Tailwind</a>, and <a className="text-[#45C4B0] underline" href="https://motion.dev/">Frame-Motion</a>.
               </p>
             </div>
 

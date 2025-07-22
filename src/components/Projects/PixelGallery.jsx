@@ -8,7 +8,7 @@ function PixelGallery() {
         {/* Section Header */}
         <div className="mb-12">
           <h2 className="text-zinc-500 text-lg font-mono mb-2">
-            03.
+            04.
           </h2>
           <div className="h-[1px] bg-gray-700 mt-2 w-full" />
         </div>
