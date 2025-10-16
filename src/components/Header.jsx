@@ -2,6 +2,35 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import NavbarMovil from "./Funciones/MovilNavbar";
 
+import GithubIcon from "./icons/Github";
+import LinkedinIcon from "./icons/Linkedin";
+import Logo from "./icons/Logo"
+
+const socialLinks = [
+  {
+    href: "https://github.com/Keiver-Dev",
+    Icon: GithubIcon,
+  },
+  {
+    href: "https://www.linkedin.com/in/keiver-santiago-luna-armenta-101716339/",
+    Icon: LinkedinIcon,
+  },
+];
+
+
+function SocialIcons({ orientation = "row", className = " p-4" }) {
+  const direction = orientation === "row" ? "flex-row gap-2" : "flex-col gap-6";
+  return (
+    <section className={`flex ${direction} ${className}`}>
+      {socialLinks.map(({ href, Icon }, index) => (
+        <a href={href} key={index} target="_blank" rel="noopener noreferrer">
+          <Icon className="h-7 w-7 text-zinc-400 hover:text-[#9AEBA3] transition-all" />
+        </a>
+      ))}
+    </section>
+  );
+}
+
 const Navbar = () => {
   useEffect(() => {
     const navbar = document.getElementById("navbar");
@@ -65,10 +94,10 @@ const Navbar = () => {
         >
           {/* Logo */}
           <div className="text-white p-6">
-            <img className="h-7 w-7" src="/Portafolio/Fire.svg" alt="Logo" />
+            <Logo />
           </div>
           <NavbarMovil />
-          
+
           <nav
             id="menu-desktop"
             className="hidden sm:flex items-center gap-10 font-normal p-4"
@@ -118,6 +147,7 @@ const Navbar = () => {
               Currículo
             </motion.a>
           </nav>
+          <SocialIcons />
         </header>
       </div>
     </motion.section>

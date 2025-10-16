@@ -1,0 +1,28 @@
+const Logo = ({ className = "text-white h-6 w-6" }) => {
+  return (
+    <svg
+      width="12"
+      height="15"
+      viewBox="0 0 12 15"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <path
+        d="M8 14L11 1"
+        stroke="white"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+      <path
+        d="M5 14L8 1"
+        stroke="white"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+      <circle cx="1.5" cy="13.5" r="1" fill="white" stroke="white" />
+    </svg>
+  );
+};
+
+export default Logo;
